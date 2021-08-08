@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Space Mono', monospace;    src: url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');;
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+
+
+
+    form{
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    width: 100%;
+    }
+
+    }
+
+ 
+  
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+
+.logo{
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+form{
+    border-radius: 5%;
+    background-color:white;
+    display: flex;
+margin: auto;
+    max-width: 35rem;
+    justify-content: space-between;
+}
+#ErrMsg{
+    color: red;
+    font-size: 10px;
+}
+
+.bill-settings{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 18rem;
+}
+label{color:hsl(180, 6%, 85%) 
+;
+padding-top: 5%;
+padding-bottom: 3%;
+
+font-family: 'Space Mono', monospace;
+}
+
+input{
+    border-radius: 5%;
+    background-color: hsl(185, 41%, 84%);
+    border: none;
+    height: 2rem;
+    width: 15rem;
+    text-align: end;
+    color: gray;
+    font-weight: bold;
+outline: rgb(36, 128, 214);    
+}
+.btn{
+    display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 0.5fr 0.5fr; 
+  gap: 4px 4px; 
+  grid-template-areas: 
+    ". . ."
+    ". . ."; 
+    width: 50%;
+    font-family: 'Space Mono', monospace;
+
+
+
+}
+
+.tip{
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    background-color:hsl(183, 100%, 15%);
+    border: none;
+ color: white;
+ font-weight: bold;
+ border-radius: 10%;
+
+}
+.tip1{ width: 5rem;
+text-align: center;
+font-weight: bold;
+color:hsl(180, 1%, 20%) ;
+
+border-radius: 10%;}
+
+
+.tip:hover{
+    background-color:hsl(186, 14%, 43%);
+}
+
+
+.area{
+
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+margin-top: 5%;
+margin-right: 3%;
+  width: 18rem;
+    background-color:hsl(183, 100%, 15%) ;
+    justify-content: space-around;
+
+
+
+}
+
+.container{
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-top: 10%;
+    justify-content: space-between;
+ 
+}
+
+.tipamount {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.price{    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   font-weight: bold;
+   color: teal;
+ font-size: 25px;
+}
+#reset{
+    background-color:hsl(171, 56%, 50%);
+width: 12rem;
+height: 2rem;
+border-radius: 5%;
+border: none;
+color: white;
+font-weight: bold;
+text-align: center;
+justify-items: center;
+margin-left: 10%;
+
+}
+p{color: rgb(255, 255, 255);
+font-stretch: extra-expanded;
+
+}
+h6{color: hsl(180, 6%, 85%) ;
+
+}
+
+
+
+
